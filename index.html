@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>GitHub Character Explorer</title>
+</head>
+<body>
+    <div class="container">
+        <h1>GitHub Character Explorer</h1>
+        <div class="form-container">
+            <form id="characterForm">
+                <input type="text" id="name" placeholder="Name">
+                <select id="comics">
+                    <option value="DC">DC</option>
+                    <option value="Marvel">Marvel</option>
+                    <option value="Comix Zone">Comix Zone</option>
+                </select>
+                <label for="favourite">Favourite: </label>
+                <input type="checkbox" id="favourite">
+                <button type="submit">Add Character</button>
+            </form>
+        </div>
+        <div class="table-container">
+            <table id="characterTable">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Surname</th>
+                        <th>Comics</th>
+                        <th>Favourite</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
